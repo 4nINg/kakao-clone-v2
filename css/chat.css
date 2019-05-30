@@ -192,7 +192,7 @@
 }
 
 .incoming-message {
-  animation: incomingAnim 1s ease-out forwards;
+  animation: incomingAnim 1s ease-out;
 }
 
 @keyframes sentAnimation {
@@ -207,5 +207,5 @@
 }
 
 .sent-message {
-  animation: sentAnimation 1s ease-out forwards;
+  animation: sentAnimation 1s linear;
 }
